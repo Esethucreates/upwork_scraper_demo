@@ -8,8 +8,6 @@
 
 A data collection tool designed to analyze Upwork job postings for market research purposes. This project helps identify trending skills and opportunities in the freelance marketplace.
 
-![Project Banner](https://via.placeholder.com/800x200?text=Upwork+Job+Analyzer)
-
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
