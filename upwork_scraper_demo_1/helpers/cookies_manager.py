@@ -1,4 +1,5 @@
 import json
+import os
 
 import nodriver as uc
 from nodriver.cdp.network import Cookie
@@ -26,11 +27,17 @@ async def main():
     print("Saving cookies...")
     cookies_list = await browser.cookies.get_all(requests_cookie_format=False)
 
-    file_path = "./cookies/cookies.json"
-    with open(file_path, "w+") as f:
-        json.dump([Cookie.to_json(cookie) for cookie in cookies_list],
-                  f,
-                  indent=4)
+    file_path = "../cookies/cookies.json"
+    if os.path.exists(file_path) is not True:
+        with open(file_path, "w") as f:
+            json.dump([Cookie.to_json(cookie) for cookie in cookies_list],
+                      f,
+                      indent=4)
+    else:
+        with open(file_path, "w+") as f:
+            json.dump([Cookie.to_json(cookie) for cookie in cookies_list],
+                      f,
+                      indent=4)
 
     print("Stopping browser...")
     await tab.close()
