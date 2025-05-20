@@ -1,0 +1,4 @@
+nodriver~=0.46.1
+httpx~=0.28.1
+selectolax~=0.3.29
+fake-useragent~=2.2.0
