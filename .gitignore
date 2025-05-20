@@ -1,0 +1,7 @@
+# Demo folders
+/playground
+/demo_projects
+
+# environments
+.venv
+.idea
