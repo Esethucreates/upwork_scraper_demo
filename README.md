@@ -23,8 +23,6 @@ A data collection tool designed to analyze Upwork job postings for market resear
 
 The Upwork Job Analyzer is a specialized web scraping tool that collects job posting data from Upwork. The primary goal is to gather intelligence on market demand for different skills and services, allowing for data-driven decisions on which services to offer as a freelancer.
 
-**For non-technical readers:** Think of this as a research assistant that collects information about what skills businesses are looking for right now. Instead of manually checking thousands of job postings, this tool can do it automatically and help identify profitable service opportunities.
-
 ## ✨ Key Features
 
 - **Automated Data Collection:** Extracts job titles and descriptions from Upwork listings
@@ -119,7 +117,6 @@ However, it cannot:
 
 **Important Note on Testing:** Frequent testing can result in your IP address being blocked by Upwork/Cloudflare. Consider using a VPN or limiting test frequency if developing this project further.
 
-**Note for employers:** This project demonstrates my ability to work with HTTP requests, browser automation, HTML parsing, and data extraction, even though the complete market research goal wasn't fully realized due to external constraints.
 
 ## 🔮 Future Development
 
